@@ -1,6 +1,6 @@
  # Memory Game Project
  
- This is a basic Memory Game project as you would know it from your childhood. There are total 8 pair of  cards, you win if you find all pairs .Your score will be displayed when you find all the pairs.You will also get a star rating and the the time taken to complete the game will also be visible.
+ This is a basic Memory Matching Game project as you would know it from your childhood. There are total 8 pair of  cards, you win if you find all pairs .Your score will be displayed when you find all the pairs.You will also get a star rating and the the time taken to complete the game will also be visible.
  
  ## Instructions
  
