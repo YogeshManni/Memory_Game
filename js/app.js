@@ -9,7 +9,7 @@ popUp.setAttribute("style","visibility:hidden");
 var minutesLabel = document.getElementById("minutes");
 var secondsLabel = document.getElementById("seconds");
 var timer=document.getElementById("timer");
-startTimer();
+
 
 function startTimer()	//function to add timer
 {
@@ -72,6 +72,7 @@ var check_array=[];
 var total_tiles=0;
 var star_count=3;
 var move=0;
+var t_count=1;
 var id;
 function addToOuterBox(index)
 {	
@@ -83,6 +84,11 @@ function addToOuterBox(index)
 		{	if(Boxes_flipped==2)
 			{
 				Boxes_flipped=0;
+			}
+		 	if(t_count==1)
+			{
+				startTimer();
+				t_count++;
 			}
 			
 			Boxes_flipped++;
