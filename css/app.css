@@ -1,0 +1,149 @@
+
+/*outer box styling*/
+div#outerBox
+{
+    background: linear-gradient(50deg, orange 10%, red 150%);
+	width: 46%;
+    height: 96%;
+    margin-left: 9cm;
+    border-radius: 10px;
+    box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+}
+
+/* inner boxes styling*/
+div#outerBox>div
+{
+	
+	background: red;
+	width: 125px;
+	height: 125px;
+	margin-left: 20px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	font-size :90px;
+	color: white;
+	border-radius: 10px;
+	cursor: pointer;
+	box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+	vertical-align: 1cm;
+
+}
+
+
+i{
+	font-size: 20px;
+}
+
+/* heading styling*/
+#h1
+{
+  margin-left: 22%;
+  color: #ffcb05;
+  text-align: center;
+  text-shadow: 3px 3px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -3px 1px 0 #000, 3px 2px 0 #000;
+  letter-spacing: 8px;
+  font: 100px/100px 'Matching Solid', Helvetica, Arial, Sans-Serif;
+  -webkit-text-stroke: 4px #3c5aa6;
+  font-family: 'Sofia';
+}
+
+/* congratulation message styling*/
+div#popUp
+{
+	text-align: center;
+	
+}
+span#img>img
+{	margin-top: 1cm;
+	height:250px;
+	width:300px;
+}
+
+/*styling for timer and stars rating*/
+#UpperDiv
+{	
+	color: yellow;
+	
+	
+}
+i
+{
+	font-size: 30px;
+}
+#minutes
+{
+	padding-left: 26%;
+	font-size: 25px;
+}
+#seconds
+{
+	font-size: 25px;
+}
+#star1
+{
+	padding-left: 19%;
+	font-size: 25px;
+}
+#star2,#star3
+{
+	font-size: 25px;
+}
+#moves
+{	
+	padding-left: 2%;
+	margin-top: 2cm;
+	font-size: 30px;
+	font-family: 'Sofia';
+	
+}
+
+#reload
+{
+	padding-left: 5%;
+	font-size: 30px;
+	cursor: pointer;
+}
+.congrats
+{
+	font-size: 30px;
+	
+}
+.moves,.woo
+{
+	font-size: 25px;
+	
+}
+
+/* Button styling*/
+span#button>button
+{
+	display: block;
+	margin-left: 46%;
+	border-radius: 8px;
+	border: none;
+	outline: none;
+	height:40px;
+	width:120px;
+	background: red;
+	color:white;
+	cursor: pointer;
+	font-size: 16px;
+
+}
+pre
+{
+	font-family: 'Sofia';
+	color: yellow;
+}
+span#button>button:hover
+{
+	background: orange;
+}
+#timer
+{
+	font-size: 25px;
+	
+}
